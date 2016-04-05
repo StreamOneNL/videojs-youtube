@@ -568,7 +568,7 @@ THE SOFTWARE. */
     return true;
   };
 
-  Youtube.canPlaySource = function(e) {
+  Youtube.canPlaySource = function() {
     return Youtube.canPlaySource();
   };
 
