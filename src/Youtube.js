@@ -300,6 +300,22 @@ THE SOFTWARE. */
       return this.source;
     },
 
+    autoplay: function() {
+      return this.options_.autoplay;
+    },
+
+    setAutoplay: function(autoplay) {
+      this.options_.autoplay = autoplay;
+    },
+
+    preload: function() {
+      return this.options_.preload;
+    },
+
+    setPreload: function(preload) {
+      this.options_.preload = preload;
+    },
+
     poster: function() {
       // You can't start programmaticlly a video with a mobile
       // through the iframe so we hide the poster and the play button (with CSS)
