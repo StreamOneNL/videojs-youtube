@@ -568,8 +568,8 @@ THE SOFTWARE. */
     return true;
   };
 
-  Youtube.canPlaySource = function() {
-    return Youtube.canPlaySource();
+  Youtube.canPlaySource = function(e) {
+    return Youtube.canPlayType(e.type);
   };
 
   Youtube.canPlayType = function(e) {
